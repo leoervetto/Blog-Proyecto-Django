@@ -1,0 +1,58 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.eggs/
+
+# Virtual environment
+env/
+virtualenv/
+ENV/
+env.bak/
+venv.bak/
+entorno/
+entorno/Lib
+Entorno/Scripts
+
+# Database files
+*.sqlite3
+
+# Django static and media files (if not managed via version control)
+staticfiles/
+media/
+
+# Local development environment files
+*.local
+
+# .env files (for environment variables, if using)
+.env
+.entorno
+
+# Secrets or credentials (ensure these are stored securely elsewhere)
+
+# Ignore log files and database backups
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
